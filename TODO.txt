@@ -1,0 +1,12 @@
+TODO CASPRE
+
+- Make manager to receive heartbeats and manage active agents
+  - Receive heartbeats over socket connection
+  - Serve list of active agents using socket connections as well
+  - Runs in its own process
+
+- Make manager for data-related updates
+  - (eg if one agent is now hosting some new data, if we are told to host something, etc.)
+  - Should run in its own process as well
+
+- Make one final process for planning how to keep our data secure
